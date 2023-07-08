@@ -14,9 +14,20 @@ function sum(n1,n2)
 }
 function us(n1,n2)
 {
-    return(n1+n2);
+    return(n1*n2);
 }
 const result = sum(n1,n2);
 console.log(`The grestest number is ${result}`);
 const res = us(n1,n2);
 console.log(`The sum is ${res}`);
+
+
+
+for(let i=0;i<20;i++)
+{
+    
+    if(i%2==0)
+    {
+        console.log(i)
+    }
+}
